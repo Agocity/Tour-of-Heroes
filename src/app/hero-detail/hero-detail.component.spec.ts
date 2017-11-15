@@ -4,6 +4,7 @@ import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 import { HeroDetailComponent } from './hero-detail.component';
+import { ActivatedRoute } from '@angular/router';
 
 describe('HeroDetailComponent', () => {
   let component: HeroDetailComponent;
